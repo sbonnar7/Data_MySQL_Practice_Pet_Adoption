@@ -119,3 +119,4 @@ else:
                 print(f"You selected {selected_pilot} as your pilot. The cost of the trip could not be determined.")
             with open("trip_result.txt", "w") as file: ##creates a file for the receipt
                 file.write(result_text)
+                
